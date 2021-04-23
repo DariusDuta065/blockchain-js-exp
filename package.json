@@ -2,6 +2,7 @@
   "name": "blockchain-js",
   "version": "1.0.0",
   "main": "blockchain.js",
+  "type": "module",
   "scripts": {
     "compile": "tsc",
     "start": "node dist/blockchain.js",
@@ -13,8 +14,12 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/crypto-js": "^4.0.1",
     "tsc-watch": "^4.2.9",
     "tslint": "^6.1.3",
     "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0"
   }
 }
